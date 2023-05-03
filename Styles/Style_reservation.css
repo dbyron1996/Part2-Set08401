@@ -1,0 +1,155 @@
+﻿/* font styling using import and * for to apply to all of page */
+@import url(link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto&display=swap" rel="stylesheet");
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 100px;
+    margin: 0px;
+    text-align: center;
+}
+
+/* background fade and remove spacing at edges */
+body {
+    background: linear-gradient(to bottom, #bea963, #ffffff);
+    margin: 0;
+    padding-bottom: 60px; /* height for footer*/
+}
+
+/*background size*/
+html, body {
+    height: 100%;
+}
+
+/* Banner background and postion*/
+
+
+/*container of reservation selection*/
+.booking-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+
+}
+
+h2 {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+
+/*box sizing*/
+form select, form input {
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+
+/*submit button pointer and position*/
+form input[type = submit] {
+    color: #fff;
+    background: #f2745f;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+form input[type = submit]:hover {
+    opacity: 0.9;
+}
+
+
+
+/* nav bar position */
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: wheat;
+    font-size: 40px;
+}
+
+/* nav hover */
+.active:hover {
+    opacity: 0.3;
+}
+
+/* section positioning */
+section {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* paragraph 1 styling */
+p1 {
+    font-size: 25px;
+    padding: 20px;
+}
+
+/* footer postitioning */
+footer {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+/* footer position */
+.btm-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+/*footer icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white
+}
