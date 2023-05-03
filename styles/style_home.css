@@ -1,8 +1,8 @@
 ﻿/* font styling using import and * for to apply to all of page */
-@import url(link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto&display=swap" rel="stylesheet");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@100&family=Roboto&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
@@ -11,7 +11,7 @@
     transition: all .2s linear;
 }
 
-h1  {
+h1 {
     color: black;
     font-size: 100px;
     margin: 0px;
@@ -55,32 +55,32 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 8vh; /*visual height used as px going under image*/
     background-color: wheat;
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 /* nav hover */
-.tn:hover {
-    opacity: 0.9;
+.active:hover {
+    opacity: 0.3;
 }
 
-/* section positioning */
+main {
+    margin: 16px;
+    padding: 16px;
+    text-align: justify;
+}
+
+
 section {
-    text-align: center;
     font-size: 24px;
+    text-align: justify;
 }
 
-/* paragraph 1 styling */
-p1 {
-    font-size: 25px;
-    text-align: center;
-    padding: 20px;
+h2 {
+    text-align: center
 }
 
-aside {
-    padding: 20px;
-}
 
 /* footer postitioning */
 footer {
@@ -105,8 +105,8 @@ footer {
 }
 
 /* hover effect */
-.fa:hover {
-        opacity: 0.7;
+fa:hover {
+    opacity: 0.7;
 }
 
 /* Facebook */

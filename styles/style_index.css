@@ -1,6 +1,6 @@
 ﻿/* font styling using import and * for to apply to all of page */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@100&family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@100&family=Roboto&display=swap');
 
 * {
     font-family: 'Josefin Sans', sans-serif;
@@ -12,7 +12,7 @@
     transition: all .2s linear;
 }
 
-h1 {
+h1  {
     color: black;
     font-size: 100px;
     margin: 0px;
@@ -56,40 +56,33 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh; /*visual height used as px going under image*/
+    min-height: 8vh; /*visual height used as px displaying under image*/
     background-color: wheat;
-    font-size: 40px;
+    font-size: 40px; 
 }
 
 /* nav hover */
-.active:hover{
-    opacity: 0.3;
+.tn:hover {
+    opacity: 0.9;
 }
 
 /* section positioning */
 section {
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
 }
 
-h3{
-    font-size: 26px;
+/* paragraph 1 styling */
+p1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    margin: 16px;
+aside {
+    padding: 20px;
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    margin: 16px;
-    font-size: 26px;
-}
 /* footer postitioning */
 footer {
     padding-left: 5px;
@@ -116,21 +109,6 @@ footer {
 .fa:hover {
         opacity: 0.7;
 }
-
-/*drop down menu bars*/
-
-.menu {
-    align-items: center;
-    display: inline-grid;
-    font-size: 20px;
-}
-
-.selected {
-    align-items: center;
-    font-size: 20px;
-    padding: 20px;
-}
-
 
 /* Facebook */
 .fa-facebook {

@@ -1,8 +1,15 @@
 ﻿/* font styling using import and * for to apply to all of page */
-@import url(link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto&display=swap" rel="stylesheet");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@100&family=Roboto&display=swap');
 
-*{
-    font-family: 'Roboto', sans-serif;
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
 
 h1 {
